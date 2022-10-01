@@ -12,102 +12,160 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
   <body>
-    Report for Jeremy Robson Daily Weekly Monthly Work 5hrs
-    <!-- daily -->
-    Previous - 7hrs
-    <!-- daily -->
-    32hrs
-    <!-- weekly -->
-    Previous - 36hrs
-    <!-- weekly -->
-    103hrs
-    <!-- monthly -->
-    Previous - 128hrs
-    <!-- monthly -->
+    <main>
+      <article class="span-2">
+        <img
+          src="images/image-jeremy.png"
+          alt="profile picture of a man smiling"
+          class="profile"
+        />
+        <blockquote>
+          Report for
+          <div class="jeremy">Jeremy Robson</div>
+        </blockquote>
+        <ul>
+          <li>Daily</li>
+          <li>Weekly</li>
+          <li>Monthly</li>
+        </ul>
+      </article>
 
-    Play 1hr
-    <!-- daily -->
-    Previous - 2hrs
-    <!-- daily -->
-    10hrs
-    <!-- weekly -->
-    Previous - 8hrs
-    <!-- weekly -->
-    23hrs
-    <!-- monthly -->
-    Previous - 29hrs
-    <!-- monthly -->
+      <article>
+        <div class="space-between">
+          Work
+          <img src="images/icon-ellipsis.svg" alt="three dots" class="hover" />
+        </div>
+        <blockquote class="current-time">5hrs</blockquote>
+        <!-- daily -->
+        <blockquote class="previous-time">Previous - 7hrs</blockquote>
+        <!-- daily -->
+        <!-- 32hrs -->
+        <!-- weekly -->
+        <!-- Previous - 36hrs -->
+        <!-- weekly -->
+        <!-- 103hrs -->
+        <!-- monthly -->
+        <!-- Previous - 128hrs -->
+        <!-- monthly -->
+      </article>
 
-    Study 0hrs
-    <!-- daily -->
-    Previous - 1hr
-    <!-- daily -->
-    4hrs
-    <!-- weekly -->
-    Previous - 7hrs
-    <!-- weekly -->
-    13hrs
-    <!-- monthly -->
-    Previous - 19hrs
-    <!-- monthly -->
+      <article>
+        <div class="space-between">
+          Play
+          <img src="images/icon-ellipsis.svg" alt="" />
+        </div>
+        <blockquote class="current-time">1hr</blockquote>
+        <!-- daily -->
+        <blockquote class="previous-time">Previous - 2hrs</blockquote>
+        <!-- daily -->
+        <!-- 10hrs -->
+        <!-- weekly -->
+        <!-- Previous - 8hrs -->
+        <!-- weekly -->
+        <!-- 23hrs -->
+        <!-- monthly -->
+        <!-- Previous - 29hrs -->
+        <!-- monthly -->
+      </article>
 
-    Exercise 1hr
-    <!-- daily -->
-    Previous - 1hr
-    <!-- daily -->
-    4hrs
-    <!-- weekly -->
-    Previous - 5hrs
-    <!-- weekly -->
-    11hrs
-    <!-- monthly -->
-    Previous - 18hrs
-    <!-- monthly -->
+      <article>
+        <div class="space-between">
+          Study
+          <img src="images/icon-ellipsis.svg" alt="" />
+        </div>
 
-    Social 1hr
-    <!-- daily -->
-    Previous - 3hrs
-    <!-- daily -->
-    5hrs
-    <!-- weekly -->
-    Previous - 10hrs
-    <!-- weekly -->
-    21hrs
-    <!-- monthly -->
-    Previous - 23hrs
-    <!-- monthly -->
+        <blockquote class="current-time">0hrs</blockquote>
 
-    Self Care 0hrs
-    <!-- daily -->
-    Previous - 1hr
-    <!-- daily -->
-    2hrs
-    <!-- weekly -->
-    Previous - 2hrs
-    <!-- weekly -->
-    7hrs
-    <!-- monthly -->
-    Previous - 11hrs
-    <!-- monthly -->
+        <!-- daily -->
+        <blockquote class="previous-time">Previous - 1hr</blockquote>
+        <!-- daily -->
+        <!-- 4hrs -->
+        <!-- weekly -->
+        <!-- Previous - 7hrs -->
+        <!-- weekly -->
+        <!-- 13hrs -->
+        <!-- monthly -->
+        <!-- Previous - 19hrs -->
+        <!-- monthly -->
+      </article>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      <article>
+        <div class="space-between">
+          Exercise
+          <img src="images/icon-ellipsis.svg" alt="" />
+        </div>
+        <blockquote class="current-time">1hr</blockquote>
+        <!-- daily -->
+        <blockquote class="previous-time">Previous - 1hr</blockquote>
+        <!-- daily -->
+        <!-- 4hrs -->
+        <!-- weekly -->
+        <!-- Previous - 5hrs -->
+        <!-- weekly -->
+        <!-- 11hrs -->
+        <!-- monthly -->
+        <!-- Previous - 18hrs -->
+        <!-- monthly -->
+      </article>
+
+      <article>
+        <div class="space-between">
+          Social
+          <img src="images/icon-ellipsis.svg" alt="" />
+        </div>
+
+        <blockquote class="current-time">1hr</blockquote>
+        <!-- daily -->
+        <blockquote class="previous-time">Previous - 3hrs</blockquote>
+        <!-- daily -->
+        <!-- 5hrs -->
+        <!-- weekly -->
+        <!-- Previous - 10hrs -->
+        <!-- weekly -->
+        <!-- 21hrs -->
+        <!-- monthly -->
+        <!-- Previous - 23hrs -->
+        <!-- monthly -->
+      </article>
+
+      <article>
+        <div class="space-between">
+          Self Care
+          <img src="images/icon-ellipsis.svg" alt="" />
+        </div>
+
+        <blockquote class="current-time">0hrs</blockquote>
+        <!-- daily -->
+        <blockquote class="previous-time">Previous - 1hr</blockquote>
+        <!-- daily -->
+        <!-- 2hrs -->
+        <!-- weekly -->
+        <!-- Previous - 2hrs -->
+        <!-- weekly -->
+        <!-- 7hrs -->
+        <!-- monthly -->
+        <!-- Previous - 11hrs -->
+        <!-- monthly -->
+      </article>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/KeithLion" target="_blank">Keith</a>.
+      </div>
+    </footer>
   </body>
 </html>

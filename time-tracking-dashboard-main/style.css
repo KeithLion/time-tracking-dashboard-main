@@ -1,0 +1,111 @@
+      .attribution {
+          font-size: 11px;
+          text-align: center;
+          color: white;
+      }
+
+      .attribution a {
+          color: hsl(228, 45%, 44%);
+      }
+      body{
+font-family: 'Rubik', sans-serif;
+background-color: hsl(226, 43%, 10%);
+margin-top:8%;
+      }
+
+.span-2{
+grid-row: span 2;
+}
+
+      main{
+        display: grid;
+        gap: 1rem;
+        grid-template-areas: 
+        'report'
+        'work'
+        'play'
+        'study'
+        'exercise'
+        'social'
+        'self-care';
+        max-width: 55rem;
+        max-height: 50rem;
+        color: white;
+        margin: auto;
+      }
+
+      main:nth-child(1){
+        grid-area: report;
+      }
+        main:nth-child(2) {
+        grid-area: work;
+        }
+        main:nth-child(3) {
+            grid-area: play;
+        }
+        main:nth-child(4) {
+            grid-area: study;
+        }
+        main:nth-child(5) {
+            grid-area: exercise;
+        }
+        main:nth-child(6) {
+            grid-area: social;
+        }
+        main:nth-child(7) {
+            grid-area: self-care;
+        }
+
+      @media (min-width: 400px){
+        main{
+            grid-template-areas:
+            'report work play study'
+            'report exercise social self-care'
+        }
+      }
+
+      article{
+        border-radius: 5%;
+        background-color: hsl(235, 46%, 20%);
+        padding: 1.5rem;
+      }
+      article:hover{
+        background-color: hsl(236, 100%, 87%, 30%);
+        cursor: pointer;
+      }
+
+      ul{
+        list-style-type: none;
+      }
+      .profile{
+        max-width: 3rem;
+        border-radius: 100%;
+        border: 2px solid white;
+      }
+
+      .space-between{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+      }
+      .current-time{
+        margin-left: 0;
+        margin-bottom: -5px;
+        font-size: 40px;
+        font-weight: 300;
+      }
+      .previous-time{
+        color: hsl(235, 45%, 61%);
+        margin-left: 0;
+      }
+      .hover:hover{
+        cursor: pointer;
+      }
+
+    footer {
+        position: static;
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
