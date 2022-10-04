@@ -33,9 +33,15 @@
           <div class="jeremy">Jeremy Robson</div>
         </blockquote>
         <ul>
-          <li>Daily</li>
-          <li>Weekly</li>
-          <li>Monthly</li>
+          <li onclick="document.getElementsByClassName('daily').innerHTML">
+            Daily
+          </li>
+          <li onclick="document.getElementsByClassName('weekly').innerHTML">
+            Weekly
+          </li>
+          <li onclick="document.getElementsByClassName('monthly').innerHTML">
+            Monthly
+          </li>
         </ul>
       </article>
 
@@ -44,13 +50,13 @@
           Work
           <img src="images/icon-ellipsis.svg" alt="three dots" class="hover" />
         </div>
-        <blockquote class="current-time">5hrs</blockquote>
+        <blockquote class="current-time daily">5hrs</blockquote>
         <!-- daily -->
-        <blockquote class="previous-time">Previous - 7hrs</blockquote>
+        <blockquote class="previous-time daily">Previous - 7hrs</blockquote>
         <!-- daily -->
-        <!-- 32hrs -->
+        <!-- <blockquote class="current-time weekly">32hrs</blockquote> -->
         <!-- weekly -->
-        <!-- Previous - 36hrs -->
+        <!-- <blockquote class="previous-time weekly">Previous - 36hrs</blockquote> -->
         <!-- weekly -->
         <!-- 103hrs -->
         <!-- monthly -->
@@ -61,100 +67,62 @@
       <article>
         <div class="space-between">
           Play
-          <img src="images/icon-ellipsis.svg" alt="" />
+          <img src="images/icon-ellipsis.svg" alt="three dots" class="hover" />
         </div>
-        <blockquote class="current-time">1hr</blockquote>
+        <blockquote class="current-time daily">1hr</blockquote>
         <!-- daily -->
-        <blockquote class="previous-time">Previous - 2hrs</blockquote>
+        <blockquote class="previous-time daily">Previous - 2hrs</blockquote>
         <!-- daily -->
-        <!-- 10hrs -->
+        <!-- <blockquote class="current-time weekly">10hrs</blockquote> -->
         <!-- weekly -->
-        <!-- Previous - 8hrs -->
+        <!-- <blockquote class="previous-time weekly">Previous - 8hrs</blockquote> -->
         <!-- weekly -->
-        <!-- 23hrs -->
+        <!-- <blockquote class="current-time monthly">23hrs</blockquote> -->
         <!-- monthly -->
-        <!-- Previous - 29hrs -->
+        <!-- <blockquote class="previous-time monthly">Previous - 29hrs</blockquote> -->
         <!-- monthly -->
       </article>
 
       <article>
         <div class="space-between">
           Study
-          <img src="images/icon-ellipsis.svg" alt="" />
+          <img src="images/icon-ellipsis.svg" alt="" class="hover" />
         </div>
-
         <blockquote class="current-time">0hrs</blockquote>
-
         <!-- daily -->
         <blockquote class="previous-time">Previous - 1hr</blockquote>
-        <!-- daily -->
-        <!-- 4hrs -->
-        <!-- weekly -->
-        <!-- Previous - 7hrs -->
-        <!-- weekly -->
-        <!-- 13hrs -->
-        <!-- monthly -->
-        <!-- Previous - 19hrs -->
-        <!-- monthly -->
       </article>
 
       <article>
         <div class="space-between">
           Exercise
-          <img src="images/icon-ellipsis.svg" alt="" />
+          <img src="images/icon-ellipsis.svg" alt="" class="hover" />
         </div>
         <blockquote class="current-time">1hr</blockquote>
         <!-- daily -->
         <blockquote class="previous-time">Previous - 1hr</blockquote>
-        <!-- daily -->
-        <!-- 4hrs -->
-        <!-- weekly -->
-        <!-- Previous - 5hrs -->
-        <!-- weekly -->
-        <!-- 11hrs -->
-        <!-- monthly -->
-        <!-- Previous - 18hrs -->
-        <!-- monthly -->
       </article>
 
       <article>
         <div class="space-between">
           Social
-          <img src="images/icon-ellipsis.svg" alt="" />
+          <img src="images/icon-ellipsis.svg" alt="" class="hover" />
         </div>
 
         <blockquote class="current-time">1hr</blockquote>
         <!-- daily -->
         <blockquote class="previous-time">Previous - 3hrs</blockquote>
-        <!-- daily -->
-        <!-- 5hrs -->
-        <!-- weekly -->
-        <!-- Previous - 10hrs -->
-        <!-- weekly -->
-        <!-- 21hrs -->
-        <!-- monthly -->
-        <!-- Previous - 23hrs -->
-        <!-- monthly -->
       </article>
 
       <article>
         <div class="space-between">
           Self Care
-          <img src="images/icon-ellipsis.svg" alt="" />
+          <img src="images/icon-ellipsis.svg" alt="" class="hover" />
         </div>
 
         <blockquote class="current-time">0hrs</blockquote>
         <!-- daily -->
         <blockquote class="previous-time">Previous - 1hr</blockquote>
-        <!-- daily -->
-        <!-- 2hrs -->
-        <!-- weekly -->
-        <!-- Previous - 2hrs -->
-        <!-- weekly -->
-        <!-- 7hrs -->
-        <!-- monthly -->
-        <!-- Previous - 11hrs -->
-        <!-- monthly -->
       </article>
     </main>
 
@@ -167,5 +135,6 @@
         <a href="https://github.com/KeithLion" target="_blank">Keith</a>.
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

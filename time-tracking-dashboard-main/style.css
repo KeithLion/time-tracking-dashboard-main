@@ -69,10 +69,10 @@ grid-row: span 2;
         background-color: hsl(235, 46%, 20%);
         padding: 1.5rem;
       }
-      article:hover{
+      /* article:hover{
         background-color: hsl(236, 100%, 87%, 30%);
         cursor: pointer;
-      }
+      } */
 
       ul{
         list-style-type: none;
